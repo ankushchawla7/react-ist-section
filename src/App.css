@@ -1,38 +1,299 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* text-decoration: none; */
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card_one {
+    padding: 23px 14px 32px 14px;
+}
+
+.br-radius-15 {
+    border-radius: 15px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.big_value {
+    color: #9E3040;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hind Siliguri;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-heading {
+    color: #232323;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hind Siliguri;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pt-4 {
+    padding-top: 24px;
+}
+
+.mb-4 {
+    margin-bottom: 24px;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.ff-siliguri {
+    font-family: Hind Siliguri;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.small-value {
+    color: #686868;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+.butn {
+    border-radius: 5px;
+    background: #232323;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 8px 31px;
+}
+
+.col-1 {
+    width: 8.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.w-100 {
+
+    width: 100%;
+}
+
+.pb-4 {
+    padding-bottom: 24px;
+}
+
+.text-property {
+    color: #232323;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.big-img-text {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Hind Siliguri;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 117.1%;
+    top: 20%;
+    left: 5%;
+}
+
+.card_one {
+    border-radius: 10px;
+    background: #F3F5F6;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.00);
+}
+
+.bg-white {
+    background: white;
+}
+
+@media (min-width:700px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mb-md-0 {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    .col-xl-5 {
+        width: 41.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-xl-7 {
+        width: 58.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .mb-xl-4{
+        margin-bottom: 0px;
+    }
 }
